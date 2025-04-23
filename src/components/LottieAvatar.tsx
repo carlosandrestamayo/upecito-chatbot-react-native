@@ -24,7 +24,7 @@ export default function LottieAvatar({ source, style }: Props) {
   return (
     <LottieView
       //animationData={source}
-      source={require('../../assets/lottie/avatar.json')}
+      source={require('../../assetes/lottie/avatar.json')}
       loop
       autoplay
       style={style}
