@@ -104,8 +104,9 @@ export default function App(): React.JSX.Element {
 
     try {
       console.log({input});
-      //const path = "https://fastapi-upecito.onrender.com/finetune"
-      const res = await axios.post('http://192.168.1.5:3000/chat', {
+      const path = "https://fastapi-upecito.onrender.com/finetune"
+      //const path = "http://192.168.1.5:3000/chat"
+      const res = await axios.post(path, {
         message: input,
       });
 
